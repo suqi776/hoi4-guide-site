@@ -115,7 +115,7 @@ const currentYear = new Date().getFullYear()
               <span class="text-green-400">
                 <div i-carbon-campsite text-sm />
               </span>
-              <span>Powered by Nuxt</span>
+              <span>Powered by Su776</span>
             </div>
           </div>
         </div>
