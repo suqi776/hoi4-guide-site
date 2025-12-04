@@ -19,50 +19,50 @@
           <div class="text-sm text-red-800 font-semibold mb-6 px-4 py-2 rounded-full bg-red-100 inline-block dark:text-red-200 dark:bg-red-900">
             🪖 Hearts of Iron IV 旗舰攻略站
           </div>
-          <h1 class="text-5xl text-transparent font-extrabold mb-6 from-red-600 to-blue-600 bg-gradient-to-r bg-clip-text md:text-7xl dark:from-red-400 dark:to-blue-400">
+          <h1 class="text-4xl text-transparent font-extrabold mb-6 from-red-600 to-blue-600 bg-gradient-to-r bg-clip-text lg:text-7xl md:text-6xl dark:from-red-400 dark:to-blue-400">
             战略大师之路
           </h1>
-          <p class="text-xl text-gray-600 leading-relaxed mx-auto mb-10 max-w-3xl md:text-2xl dark:text-gray-300">
+          <p class="text-lg text-gray-600 leading-relaxed mx-auto mb-10 max-w-3xl lg:text-2xl md:text-xl dark:text-gray-300">
             从新手到专家的完整攻略指南 - 掌握第二次世界大战的战略艺术，重塑历史进程
           </p>
           <div class="flex flex-col gap-4 items-center justify-center sm:flex-row">
             <NuxtLink
               to="/guides/basics"
-              class="group btn-primary text-lg text-white font-bold px-10 py-4 rounded-xl shadow-lg transform transition-all duration-200 from-red-600 to-red-700 bg-gradient-to-r hover:shadow-xl dark:from-red-500 dark:to-red-600 hover:-translate-y-0.5"
+              class="group btn-primary text-lg text-white font-bold px-6 py-4 rounded-xl flex min-h-14 shadow-lg transform transition-all duration-200 items-center justify-center from-red-600 to-red-700 bg-gradient-to-r sm:px-10 hover:shadow-xl dark:from-red-500 dark:to-red-600 hover:-translate-y-0.5"
             >
               🚀 开始旅程
             </NuxtLink>
             <NuxtLink
               to="/guides/nations"
-              class="group btn-secondary text-lg text-gray-700 font-semibold px-10 py-4 border-2 border-gray-300 rounded-xl bg-white/80 shadow-md transform transition-all duration-200 backdrop-blur-sm dark:text-gray-200 dark:border-gray-600 hover:border-red-400 dark:bg-gray-800/80 hover:bg-white hover:shadow-lg dark:hover:bg-gray-700 hover:-translate-y-0.5"
+              class="group btn-secondary text-lg text-gray-700 font-semibold px-6 py-4 border-2 border-gray-300 rounded-xl bg-white/80 flex min-h-14 shadow-md transform transition-all duration-200 items-center justify-center backdrop-blur-sm dark:text-gray-200 sm:px-10 dark:border-gray-600 hover:border-red-400 dark:bg-gray-800/80 hover:bg-white hover:shadow-lg dark:hover:bg-gray-700 hover:-translate-y-0.5"
             >
               📖 国家攻略
             </NuxtLink>
           </div>
 
           <!-- Stats -->
-          <div class="mt-16 text-center flex flex-wrap gap-8 justify-center">
-            <div class="px-6 py-4 rounded-lg bg-white/60 shadow-sm backdrop-blur-sm dark:bg-gray-800/60">
-              <div class="text-2xl text-gray-900 font-bold dark:text-gray-100">
+          <div class="mt-16 text-center flex flex-wrap gap-4 justify-center sm:gap-8">
+            <div class="px-4 py-4 rounded-lg bg-white/60 flex flex-col min-h-16 min-w-20 shadow-sm items-center justify-center backdrop-blur-sm sm:px-6 dark:bg-gray-800/60">
+              <div class="text-xl text-gray-900 font-bold sm:text-2xl dark:text-gray-100">
                 50+
               </div>
-              <div class="text-sm text-gray-600 dark:text-gray-400">
+              <div class="text-xs text-gray-600 sm:text-sm dark:text-gray-400">
                 详细攻略
               </div>
             </div>
-            <div class="px-6 py-4 rounded-lg bg-white/60 shadow-sm backdrop-blur-sm dark:bg-gray-800/60">
-              <div class="text-2xl text-gray-900 font-bold dark:text-gray-100">
+            <div class="px-4 py-4 rounded-lg bg-white/60 flex flex-col min-h-16 min-w-20 shadow-sm items-center justify-center backdrop-blur-sm sm:px-6 dark:bg-gray-800/60">
+              <div class="text-xl text-gray-900 font-bold sm:text-2xl dark:text-gray-100">
                 8
               </div>
-              <div class="text-sm text-gray-600 dark:text-gray-400">
+              <div class="text-xs text-gray-600 sm:text-sm dark:text-gray-400">
                 主要国家
               </div>
             </div>
-            <div class="px-6 py-4 rounded-lg bg-white/60 shadow-sm backdrop-blur-sm dark:bg-gray-800/60">
-              <div class="text-2xl text-gray-900 font-bold dark:text-gray-100">
+            <div class="px-4 py-4 rounded-lg bg-white/60 flex flex-col min-h-16 min-w-20 shadow-sm items-center justify-center backdrop-blur-sm sm:px-6 dark:bg-gray-800/60">
+              <div class="text-xl text-gray-900 font-bold sm:text-2xl dark:text-gray-100">
                 🎯
               </div>
-              <div class="text-sm text-gray-600 dark:text-gray-400">
+              <div class="text-xs text-gray-600 sm:text-sm dark:text-gray-400">
                 实用技巧
               </div>
             </div>

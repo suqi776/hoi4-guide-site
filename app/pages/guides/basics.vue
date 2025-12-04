@@ -140,7 +140,7 @@
         </section>
 
         <!-- Next Steps -->
-        <section class="p-8 text-center border border-gray-200 rounded-lg bg-white dark:border-gray-700 light:border-gray-200 dark:bg-gray-800 light:bg-white">
+        <section class="p-6 text-center border border-gray-200 rounded-lg bg-white sm:p-8 dark:border-gray-700 light:border-gray-200 dark:bg-gray-800 light:bg-white">
           <h2 class="text-2xl text-red-500 font-bold mb-6 dark:text-red-400 light:text-red-500">
             下一步
           </h2>
@@ -149,7 +149,7 @@
           </p>
           <NuxtLink
             to="/guides/nations"
-            class="text-lg text-white font-semibold px-8 py-3 rounded-lg bg-red-600 transition-colors dark:bg-red-600 hover:bg-red-700 light:bg-red-500 dark:hover:bg-red-700 light:hover:bg-red-600"
+            class="text-lg text-white font-semibold px-6 py-3 rounded-lg bg-red-600 flex min-h-12 inline-block transition-colors items-center justify-center sm:px-8 dark:bg-red-600 hover:bg-red-700 light:bg-red-500 dark:hover:bg-red-700 light:hover:bg-red-600"
           >
             继续：国家攻略 →
           </NuxtLink>

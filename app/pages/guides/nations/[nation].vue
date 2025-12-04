@@ -148,7 +148,7 @@ onMounted(async () => {
       </div>
 
       <!-- Content - Rendered Markdown with Markstream -->
-      <div v-else class="border border-gray-200 rounded-lg bg-white lg:p-8 md:p-6 dark:border-gray-700 dark:bg-gray-800">
+      <div v-else class="p-4 border border-gray-200 rounded-lg bg-white lg:p-8 md:p-6 dark:border-gray-700 dark:bg-gray-800">
         <MarkdownRender :content="markdownContent" />
       </div>
 
