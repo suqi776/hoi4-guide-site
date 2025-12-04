@@ -107,6 +107,11 @@ const currentYear = new Date().getFullYear()
             <p class="text-center md:text-left">
               © {{ currentYear }} Hoi4攻略. 基于 MIT 协议开源。
             </p>
+            <p class="text-center md:text-left">
+              <a href="https://github.com/suqi776/hoi4-guide-site" class="text-blue-400 transition-colors hover:text-blue-500">
+                GitHub
+              </a>
+            </p>
           </div>
 
           <div class="flex items-center space-x-6">
